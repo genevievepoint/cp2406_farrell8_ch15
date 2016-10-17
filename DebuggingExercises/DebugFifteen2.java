@@ -5,17 +5,17 @@ import java.awt.*;
 import java.awt.event.*;
 public class DebugFifteen2 extends JFrame
 {
-   JButton nb = new JButton("Left    ");
+   JButton cb = new JButton("Up");
    JButton sb = new JButton("Down  ");
    JButton eb = new JButton("Right ");
+   JButton nb = new JButton("Left    ");
    JButton wb = new JButton("Center  ");
-   JButton cb = new JButton("Up");
    Container con = null;
 
    public DebugFifteen2()
    {
       con = this.getContentPane();
-      con.setLayout(new BorderLayout())
+      con.setLayout(new BorderLayout());
       con.add(nb);
       con.add(sb);
       con.add(eb);
